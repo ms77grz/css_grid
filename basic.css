@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #f5f0a7;
+    background-color: #f5f0a7;
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 10px;
+    margin: 0;
+}
+
+h2 {
+    color: rgb(39, 32, 32);
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+.container div:nth-child(1) {
+    background-color: rgb(68, 174, 236);
+}
+
+.container div:nth-child(2) {
+    background-color: rgb(245, 108, 108);
+}
+
+.container div:nth-child(3) {
+    background-color: rgb(68, 216, 236);
+}
+
+.container div:nth-child(4) {
+    background-color: rgb(250, 204, 76);
+}
+
+.container div:nth-child(6) {
+    background-color: rgb(245, 108, 108);
+}
+
+.container div:nth-child(5) {
+    background-color: rgb(68, 174, 236);
+}
