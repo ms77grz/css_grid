@@ -6,102 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Template areas</title>
     <link rel="stylesheet" href="basic.css">
-    <style>
-        /* Example 1 */
-        .container {
-            height: 100%;
-            display: grid;
-            grid-gap: 3px;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 40px auto 40px;
-        }
-        .header {
-            grid-column: 1 / -1;
-        }
-        /* .menu {} */
-        .content {
-            grid-column: 2 / -1;
-        }
-        .footer {
-            grid-column: 1 / -1;
-        }
-        /* Example 2 */
-        .con_1 {
-            height: 100%;
-            display: grid;
-            grid-gap: 3px;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 40px auto 40px;
-            grid-template-areas: 
-                "h h h h h h h h h h h h"
-                "m c c c c c c c c c c c"
-                "f f f f f f f f f f f f";
-        }
-        .con_1 .header {
-            grid-area: h;
-        }
-        .con_1 .menu {
-            grid-area: m;
-        }
-        .con_1 .content {
-            grid-area: c;
-        }
-        .con_1 .footer {
-            grid-area: f;
-        }
-        /* Example 3 */
-        .con_2 {
-            height: 100%;
-            display: grid;
-            grid-gap: 3px;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 40px auto 40px;
-            grid-template-areas: 
-                "m h h h h h h h h h h h"
-                "m c c c c c c c c c c c"
-                "m f f f f f f f f f f f";
-        }
-        .con_2 .header {
-            grid-area: h;
-        }
-        .con_2 .menu {
-            grid-area: m;
-        }
-        .con_2 .content {
-            grid-area: c;
-        }
-        .con_2 .footer {
-            grid-area: f;
-        }
-        /* Example  4*/
-        .con_3 {
-            height: 100%;
-            display: grid;
-            grid-gap: 3px;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: 40px auto 40px;
-            grid-template-areas: 
-                ". h h h h h h h h h h ."
-                "m c c c c c c c c c c c"
-                ". f f f f f f f f f f ."
-        }
-        .con_3 .header {
-            grid-area: h;
-        }
-        .con_3 .menu {
-            grid-area: m;
-        }
-        .con_3 .content {
-            grid-area: c;
-        }
-        .con_3 .footer {
-            grid-area: f;
-        }
-    </style>
+    <link rel="stylesheet" href="05.css">
 </head>
 
 <body>
-    <!-- <div class="container">
+    <div class="container">
         <div class="header">HEADER</div>
         <div class="menu">MENU</div>
         <div class="content">CONTENT</div>
@@ -121,7 +30,7 @@
         <div class="content">CONTENT</div>
         <div class="footer">FOOTER</div>
     </div>
-    <hr> -->
+    <hr>
     <div class="container con_3">
         <div class="header">HEADER</div>
         <div class="menu">MENU</div>
