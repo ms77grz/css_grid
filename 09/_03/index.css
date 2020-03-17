@@ -3,19 +3,19 @@
     display: grid;
     grid-gap: 3px;
     grid-template-columns: [main-start] 1fr [content-start] 5fr [content-end main-end];
-    grid-template-rows: 40px auto 40px;
+    grid-template-rows: [main-start] 40px[content-start] auto [content-end] 40px [main-end];
 }
 
 .header {
-    grid-column: main-start / main-end;
+    grid-column: main;
 }
 
 .menu {}
 
 .content {
-    grid-column: content-start / content-end;
+    grid-column: content;
 }
 
 .footer {
-    grid-column: main-start / main-end;
+    grid-column: main;
 }
