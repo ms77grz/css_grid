@@ -1,0 +1,11 @@
+ul {
+    list-style-type: none;
+}
+
+
+
+html, body {
+    font-size: 1.1em;
+    font-family: sans-serif;
+    background-color: #ffeead;
+}
