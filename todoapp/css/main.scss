@@ -79,6 +79,16 @@ form {
   opacity: 0.7;
 }
 
+.btn.delete {
+  font-size: 1rem;
+  opacity: 0.7;
+  transition: color 200ms;
+}
+
+.btn.delete:hover {
+  color: var(--clr-warning);
+}
+
 .new {
   background: transparent;
   border: 0;
@@ -86,8 +96,14 @@ form {
   border-bottom: 1px solid currentColor;
   font-size: inherit;
   outline: none;
+  padding: 0.25em;
   transition: border-bottom 150ms ease-in;
   order: 2;
+}
+
+.new::placeholder {
+  color: inherit;
+  opacity: 0.4;
 }
 
 .new:focus {
@@ -95,7 +111,7 @@ form {
 }
 
 .new:focus::placeholder {
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .new.list {
@@ -133,6 +149,7 @@ form {
 
 .todo-body {
   padding: var(--spacer);
+  position: relative;
 }
 
 .new-task-creator .create {
@@ -215,5 +232,9 @@ form {
 .delete-stuff {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 25px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -35px;
+  color: var(--clr-light);
 }
