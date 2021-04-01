@@ -4,59 +4,39 @@ body {
 }
 
 .grid-container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 1.2fr 1.5fr;
-      grid-template-columns: 1fr 1.2fr 1.5fr;
-  -ms-grid-rows: 1fr 4fr 3fr 2fr;
-      grid-template-rows: 1fr 4fr 3fr 2fr;
-      grid-template-areas: 'main main header' 'main main candy' 'nom yum candy' 'diabeetus diabeetus candy';
+  grid-template-columns: 1fr 1.2fr 1.5fr;
+  grid-template-rows: 1fr 4fr 3fr 2fr;
+  grid-template-areas: "main main header" "main main candy" "nom yum candy" "diabeetus diabeetus candy";
   height: 100vh;
 }
 
 main {
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: main;
   background-color: #fffadf;
 }
 
 section.nom {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
   grid-area: nom;
   background-color: #c4b35a;
 }
 
 section.yum {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
   grid-area: yum;
   background-color: #333333;
 }
 
 section.diabeetus {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-area: diabeetus;
   background-color: #202020;
 }
 
 header {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
   grid-area: header;
 }
 
 .candy {
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 3;
-  -ms-grid-column: 3;
   grid-area: candy;
   background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2621168/candy.jpg") no-repeat;
   background-size: cover;
-}
-/*# sourceMappingURL=main2.css.map */
+}/*# sourceMappingURL=main2.css.map */
