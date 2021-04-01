@@ -126,7 +126,7 @@ form {
 .todo-list {
   --spacer: 2rem;
   grid-area: todo;
-  background-color: var(--clr-light);
+
   color: var(--clr-dark);
 }
 
@@ -150,6 +150,7 @@ form {
 .todo-body {
   padding: var(--spacer);
   position: relative;
+  background-color: var(--clr-light);
 }
 
 .new-task-creator .create {
