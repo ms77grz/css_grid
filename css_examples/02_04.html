@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Before and After pseudo elements explained - part one: how they work -->
+	<title>Example 2</title>
+	<style type="text/css">
+		
+		body{
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 5rem;
+			font-family: sans-serif;
+			overflow: hidden;
+		}
+
+		p::before{
+			content: 'hello';
+			background: red;
+			font-size: 20px;
+			color: white;
+			font-weight: 900;
+			display: block;
+		}
+
+		p::after{
+			content: 'goodbye';
+			background: red;
+			font-size: 20px;
+			color: white;
+			font-weight: 900;
+			display: block;
+			text-align: right;
+		}
+
+	</style>
+</head>
+<body>
+	
+	<p>Here is some generic content</p>
+
+</body>
+</html>

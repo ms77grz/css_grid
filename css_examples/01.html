@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<style type="text/css">
+
+		/** {
+			box-sizing: border-box;
+		}*/
+
+		*, *::before, *::after{
+			box-sizing: inherit;
+		}
+
+		html{
+			box-sizing: border-box;
+		}
+
+		body{
+			background: #efefef;
+			color: #333;
+			font-family: sans-serif;
+		}
+		
+		.scale{
+			width: 500px;
+			height: 50px;
+			background: #615676;
+		}
+
+		.content-box{
+			box-sizing: content-box;
+			width: 500px;
+			background: #4dfff3;
+			border: 5px solid red;
+			padding: 25px;
+		}
+
+		.border-box{
+			box-sizing: border-box;
+			width: 500px;
+			background: #55ffb8;
+			border: 5px solid red;
+			padding: 25px;
+		}
+
+		.test-box{
+			background: #f4e5a8;
+			width: 500px;
+			padding: 25px;
+			border: 5px solid red;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="content-box">content-box
+		<div class="test-box">test-box</div>
+	</div>
+	<div class="scale"></div>
+	<div class="border-box">border-box</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+
+.box {
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    background-color: #efefef;
+}
+
+.tweets {
+    background-color: #a2ded0;
+}
+
+.replies {
+    background-color: #f4d03f;
+}
+
+.search {
+    background-color: #6c7a89;
+}
+
+.messages {
+    background-color: #59abe3;
+}
+
+/* Our Grid Code */
+
+.app-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100vh;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .app-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50vh 50vh;
+    }
+}

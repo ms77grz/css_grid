@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.4em;
+    background-color: #f2f2f2;
+}
+
+main {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 80px 1fr 80px;
+}
+
+main > * {
+    grid-column: 2;
+    min-width: 0;
+}
+
+main {
+    background-color: rgb(57, 65, 65);
+    color: #eee;
+}
+
+h2 {
+    color: rgb(211, 110, 16);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(5, 230, 99);
+}

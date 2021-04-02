@@ -1,0 +1,32 @@
+q<!DOCTYPE html>
+<html>
+<head>
+	<!-- Before and After pseudo elements explained - part one: how they work -->
+	<title>Example 2</title>
+	<style type="text/css">
+		
+		body{
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 5rem;
+		}
+
+		p::before{
+			content: '';
+			background: red;
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<p></p>
+</body>
+</html>
