@@ -38,12 +38,13 @@ header {
 .left-section {
   grid-area: sect-left;
   background-color: rgb(252, 189, 189);
+  padding: 24px;
 }
 
 .right-section {
   grid-area: sect-right;
   background-color: rgb(189, 207, 252);
-  padding-left: 24px;
+  padding: 24px;
 }
 
 h3 {
