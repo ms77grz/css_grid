@@ -28,7 +28,8 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-areas:
     'header header header header'
-    'sect-left sect-left sect-right sect-right';
+    'sect-left sect-left sect-right sect-right'
+    'sect-left sect-left components components';
 }
 
 header {
@@ -44,6 +45,11 @@ header {
 .right-section {
   grid-area: sect-right;
   background-color: rgb(189, 207, 252);
+  padding: 24px;
+}
+
+section.components {
+  grid-area: components;
   padding: 24px;
 }
 

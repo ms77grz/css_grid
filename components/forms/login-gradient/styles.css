@@ -1,0 +1,96 @@
+@import 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(120deg, blue, red);
+  background-size: cover;
+  height: 200vh;
+  color: black;
+  overflow: hidden;
+}
+
+.mainbox {
+  position: absolute;
+  top: 30%;
+  left: 38%;
+  transform: translate(-50, -50);
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 100px;
+}
+
+.mainbox h1 {
+  text-align: center;
+  font-size: 36px;
+  border-bottom: 5px solid purple;
+  padding-bottom: 20px;
+}
+
+.all {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  padding-top: 60px;
+}
+
+.mail {
+  width: 100%;
+  border-bottom: 2px solid purple;
+  padding: 0 0 5px 0;
+  font-size: 20px;
+}
+
+.password {
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid purple;
+  font-size: 20px;
+}
+
+.forgotpassword {
+  padding-top: 10px;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.loginbtn {
+  position: relative;
+  padding-top: 1px;
+  border: 4px solid purple;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.loginbtn label {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.loginbtn:hover {
+  border-color: green;
+  transition-duration: 0.5s;
+}
+
+.signup {
+  padding-top: 20px;
+}
+
+.mainbox input {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.forgotpassword:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.staysigned {
+  padding-bottom: 15px;
+  font-size: 16px;
+}

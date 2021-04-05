@@ -1,0 +1,40 @@
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.checkbox__input {
+  opacity: 0;
+  width: 0;
+  margin: 0;
+}
+
+.checkbox__box {
+  width: 1.25em;
+  height: 1.25em;
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  flex-shrink: 0;
+  transition: background-color 0.15s, border-color 0.15s;
+}
+
+.checkbox__box::after {
+  content: '\2714';
+  color: #fff;
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+
+.checkbox__input:checked + .checkbox__box {
+  background-color: #2266dc;
+  border-color: #2266dc;
+}
+
+.checkbox__input:checked + .checkbox__box::after {
+  transform: scale(1);
+}
