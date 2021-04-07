@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Journal Sans New';
+  font-weight: bold;
+  src: url('fonts/journal-sans-new-bold.woff2') format('woff2');
+}
+
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: 'Journal Sans New', sans-serif;
+}
+
+polyline,
+path {
+  fill: inherit;
+  stroke: inherit;
+}
+
+/* INLINE-BLOCK-BUTTONS */
+.inline-block-buttons .button {
+  display: inline-block;
+  padding: 0.45em 0.7em 0.5em;
+  border: none;
+  border-radius: 2em;
+  background-color: grey;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: inherit;
+}
+
+.inline-block-buttons .button__icon {
+  fill: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+}
+
+.inline-block-buttons .button--remove {
+  background-color: #ff6347;
+}
+
+.inline-block-buttons .button--add {
+  background-color: #6fba1e;
+}
+
+.inline-block-buttons .button--think {
+  background-color: #006ae3;
+}
+
+/* GRID-BUTTONS */
+.grid-buttons .button {
+  display: grid;
+  grid-auto-flow: column;
+  padding: 0.45em 0.7em 0.5em;
+  border: none;
+  border-radius: 2em;
+  background-color: grey;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: inherit;
+}
+
+.grid-buttons .button__icon {
+  fill: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+}
+
+.grid-buttons .button--remove {
+  background-color: #ff6347;
+}
+
+.grid-buttons .button--add {
+  background-color: #6fba1e;
+}
+
+.grid-buttons .button--think {
+  background-color: #006ae3;
+}
+
+/* INLINE-GRID-BUTTONS */
+.inline-grid-buttons .button {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 0.4em;
+  align-items: center;
+  padding: 0.45em 0.7em 0.5em;
+  border: none;
+  border-radius: 2em;
+  background-color: grey;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: inherit;
+}
+
+.inline-grid-buttons .button__icon {
+  fill: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+}
+
+.inline-grid-buttons .button--remove {
+  background-color: #ff6347;
+}
+
+.inline-grid-buttons .button--add {
+  background-color: #6fba1e;
+}
+
+.inline-grid-buttons .button--think {
+  background-color: #006ae3;
+}
+
+/* INLINE-FLEX-BUTTONS */
+.inline-flex-buttons .button {
+  display: inline-flex;
+  grid-gap: 0.4em;
+  align-items: center;
+  padding: 0.45em 0.7em 0.5em;
+  border: none;
+  border-radius: 2em;
+  background-color: grey;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: inherit;
+  /* width: 250px; */
+}
+
+.inline-flex-buttons .button__icon {
+  fill: currentColor;
+  width: 0.8em;
+  height: 0.8em;
+}
+
+.inline-flex-buttons .button--remove {
+  background-color: #ff6347;
+}
+
+.inline-flex-buttons .button--add {
+  background-color: #6fba1e;
+}
+
+.inline-flex-buttons .button--think {
+  background-color: #006ae3;
+}

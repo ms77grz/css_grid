@@ -5,38 +5,37 @@
 }
 
 body {
-  font-family: sans-serif;
   background: #eee;
+  color: #333;
 }
 
 .wrapper {
+  width: 100%;
   max-width: 960px;
-  margin: auto;
 }
 
-.flex-container {
+#blocks {
   display: flex;
-  background: #fff;
-  flex-wrap: wrap;
-  flex-flow: row;
-  justify-content: flex-end;
-  align-items: flex-end;
-  height: 500px;
+  margin: 10px;
+  justify-content: space-between;
 }
 
-.box {
-  height: 100px;
+#blocks div {
   flex: 0 0 100px;
+  padding: 40px 0;
+  text-align: center;
+  background: #ccc;
 }
 
 .one {
-  background: red;
+  order: 3;
 }
-
 .two {
-  background: green;
+  order: 2;
 }
-
 .three {
-  background: blue;
+  order: 1;
+}
+.four {
+  order: 0;
 }
