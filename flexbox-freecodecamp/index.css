@@ -3,6 +3,19 @@
   display: flex;
 }
 
-.container > div:nth-child(odd) {
+.container > div {
   flex: 1;
+  font-size: 1.8rem;
+}
+
+.item1 {
+  order: 2;
+}
+
+.item2 {
+  order: 1;
+}
+
+.item3 {
+  order: 0;
 }
