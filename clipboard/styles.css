@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+  margin-top: 30px;
+  background-color: #e4e4e4;
+  padding: 30px;
+}
+
+h1 {
+  background-color: rgb(58, 223, 201);
+  padding: 20px;
+  width: 50%;
+}
+
+.out {
+  height: 50px;
+  padding-left: 10px;
+  font-size: 2rem;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.section-symbol {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  font-size: 2rem;
+}
+
+.courses {
+  padding: 20px;
+}
+
+.courses ul {
+  list-style-type: none;
+}
+
+.courses li {
+  margin-bottom: 2px;
+}
+
+.courses a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.4rem;
+}
