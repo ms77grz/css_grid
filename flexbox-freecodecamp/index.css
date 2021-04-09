@@ -1,21 +1,18 @@
 .container {
-  border: 5px solid #ffcc5c;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.container > div {
-  flex: 1;
-  font-size: 1.8rem;
+.container > .normal {
+  flex: 1 1 150px;
 }
 
-.item1 {
-  order: 2;
+.container > .big {
+  flex: 1 1 250px;
 }
 
-.item2 {
-  order: 1;
-}
-
-.item3 {
-  order: 0;
+.container > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
