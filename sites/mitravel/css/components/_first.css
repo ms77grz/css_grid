@@ -125,14 +125,12 @@
 @media (max-height: 1079px) {
   .first__container {
     padding: 120px 30px;
-    color: lawngreen;
   }
 }
 
 @media (max-height: 880px) {
   .first__container {
     padding: 100px 30px;
-    color: lightcoral;
   }
 
   .first__link {
@@ -147,7 +145,6 @@
 
 @media (max-height: 780px) {
   .first__container {
-    color: lightseagreen;
   }
 
   .search-form {
