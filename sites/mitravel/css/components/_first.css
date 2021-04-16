@@ -1,7 +1,7 @@
 .first {
   height: 100vh;
   min-height: 660px;
-  background-image: url('/img/first-bg.jpg');
+  background-image: url('../../img/first-bg.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,14 +45,7 @@
 }
 
 .first__btn {
-  font-weight: 800;
-  font-size: 12px;
-  letter-spacing: 2.2px;
-  padding: 33px 80px;
   background-color: var(--accent-color);
-  text-transform: uppercase;
-  border-radius: 8px;
-  color: var(--white-color);
   position: relative;
   z-index: 5;
 }
@@ -144,9 +137,6 @@
 }
 
 @media (max-height: 780px) {
-  .first__container {
-  }
-
   .search-form {
     height: 80px;
   }
