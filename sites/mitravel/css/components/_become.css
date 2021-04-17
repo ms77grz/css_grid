@@ -28,6 +28,11 @@
   margin-right: 0;
 }
 
+.become__image {
+  max-height: 100%;
+  object-fit: cover;
+}
+
 .become__text {
   position: absolute;
   left: 0;
@@ -41,11 +46,6 @@
   color: var(--white-color);
   transform: translateY(300px);
   transition: transform 0.3s ease-in-out;
-}
-
-.become__image {
-  max-height: 100%;
-  object-fit: cover;
 }
 
 .become__item::before {
