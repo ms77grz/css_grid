@@ -1,0 +1,29 @@
+/* @import './swiper-bundle.css'; */
+@import './swiper-bundle.min.css';
+
+body {
+  padding: 50px;
+}
+
+.swiper-container {
+  /* DEFAULT DEMO SETTINGS */
+  /* width: 600px;
+  height: 300px; */
+
+  /* CUSTOM SETTINGS */
+  height: 500px;
+  width: 1000px;
+}
+
+.swiper-slide {
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  /* background-size: cover; */
+}
+
+/* .swiper-slide {
+  background-image: url('https://unsplash.it/1000/500');
+} */
